@@ -15,18 +15,19 @@ This API provides endpoints for managing categories and subcategories for a menu
 
 1. **Clone the repository**:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Whitehatdown/Guestara_API
     cd <repository-folder>
     ```
 
 2. **Install dependencies**:
-    ```bash
+    Dependancies have been added to the Repository directly, Use the Command below to install them
+   ```bash
     npm install
     ```
 
-3. **Configure environment variables**:
-   Create a `.env` file in the root directory with the following content:
+4. **Configure environment variables**:
+   I have added my Secret and Connection Details, To Connect to your Personal DB, Create a `.env` file in the root directory with the following content:
    ```bash
-   MONGO_URI=mongodb://localhost:27017/menu-management
+   MONGO_URI=<ENV_AlREADY_HAS_MY_DATABASE_URL>
    PORT=5000
 
